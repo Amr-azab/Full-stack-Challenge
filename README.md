@@ -12,4 +12,4 @@ This project present student quizzes and announcements data for the current seme
 ![Alt text](client/src/components/img/loginclogio.PNG)
 ![Alt text](client/src/components/img/SignUpcloligo.PNG)
 ![Alt text](client/src/components/img/homepage.PNG)
-![Alt text](client/src/components/img/DAshboard.PNG)
+![Alt text](client/src/components/img/boardd.PNG)
