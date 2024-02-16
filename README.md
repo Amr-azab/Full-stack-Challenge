@@ -1,3 +1,3 @@
 This full stack project 
-i used (react , typescript) in frontend ◼
-i used (node , express , mongoDB , typescript) in backend ◼
+I used (react , typescript) in frontend ◼
+I used (node , express , mongoDB , typescript) in backend ◼
