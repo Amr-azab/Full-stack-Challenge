@@ -40,7 +40,7 @@ export const Due: FC = () => {
             <span className={classes.course}>Course : {item.course}</span>
             <span className={classes.topic}>Topic : {item.topic}</span>
             <span className={classes.dueDate}>
-              dueDate : {Time(item.dueDate)}
+              Due to : {Time(item.dueDate)}
             </span>
             <button className={classes.Btn}>Start Quiz</button>
           </div>
