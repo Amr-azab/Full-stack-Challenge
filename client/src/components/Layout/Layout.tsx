@@ -7,9 +7,8 @@ export const Layout: FC<LayoutProps> = (props) => {
   return (
     <div className={classes.leftNavLayout}>
       <LeftNav />
-      <div className={classes.right}>
-        <Outlet />
-      </div>
+
+      <Outlet />
     </div>
   );
 };
