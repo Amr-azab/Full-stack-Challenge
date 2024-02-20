@@ -46,3 +46,19 @@
   transform: scale(0.9);
   background-color: #307476;
 }
+@media screen and (max-width: 768px) {
+  .Title {
+    font-size: 2rem;
+  }
+  .Tip {
+    font-size: 0.8rem;
+  }
+  .Quote {
+    font-size: 0.7rem;
+  }
+  .Btn {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    width: 17vh;
+  }
+}

@@ -1,4 +1,36 @@
+/* Layout.module.css */
+
 .leftNavLayout {
   display: flex;
   height: 100vh;
+}
+
+.container {
+  width: 200px;
+  transition: width 0.3s;
+  overflow-y: auto;
+}
+.container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  transition: margin-left 0.3s;
+}
+.content::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Adjust margin-left for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95px; /* Set width to 0 to hide the left navigation */
+  }
+
+  .content {
+    margin-left: 0; /* Remove margin when left navigation is hidden */
+  }
 }

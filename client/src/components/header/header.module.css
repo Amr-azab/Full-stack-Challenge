@@ -21,3 +21,17 @@
   height: 2.5rem;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .img {
+    width: 0.6rem;
+    margin-right: 2rem;
+  }
+  .searchContainer {
+    width: 40%;
+    margin-right: 1rem;
+  }
+  .user {
+    font-size: 0.5rem;
+    margin-right: 1rem;
+  }
+}

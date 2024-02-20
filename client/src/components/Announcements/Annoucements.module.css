@@ -3,7 +3,7 @@
   background-color: white;
   flex-direction: column;
   border-radius: 5px;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border: 1px solid #ccc;
 }
@@ -11,6 +11,7 @@
 .Card {
   background-color: white;
   margin-left: 1rem;
+
   margin-bottom: 1rem;
   display: grid;
   grid-template-columns: 5% 15% 80%;
@@ -24,26 +25,60 @@
 .Course {
   color: #aeaeae;
   font-size: 1rem;
+  margin-left: 0.4rem;
+  margin-right: 3rem;
 }
 
 .Name {
   color: black;
   margin-bottom: -1rem;
   font-size: 1rem;
+  margin-left: 0.4rem;
+  margin-right: 3rem;
 }
 
 .Text {
   color: #a4a4a4;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
 }
 .img {
   display: flex;
   width: 2rem;
   height: 3rem;
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   border-radius: 50%;
 }
 
 h2 {
   margin-left: 1rem;
+}
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .Container {
+    margin: 0.4rem;
+  }
+  h2 {
+    font-size: 0.4rem;
+  }
+  .Card {
+    margin-left: 0.4rem;
+  }
+
+  .Course {
+    font-size: 7px;
+  }
+  .Name {
+    font-size: 7px;
+    margin-bottom: -0.5rem;
+  }
+  .Text {
+    font-size: 7px;
+  }
+  .img {
+    width: 0.8rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+  }
 }

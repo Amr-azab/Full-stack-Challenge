@@ -6,9 +6,12 @@ export interface LayoutProps {}
 export const Layout: FC<LayoutProps> = (props) => {
   return (
     <div className={classes.leftNavLayout}>
-      <LeftNav />
-
-      <Outlet />
+      <div className={classes.container}>
+        <LeftNav />
+      </div>
+      <div className={classes.content}>
+        <Outlet />
+      </div>
     </div>
   );
 };

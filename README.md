@@ -10,6 +10,6 @@ This project present student quizzes and announcements data for the current seme
 ## Screenshots
 
 ![Alt text](client/src/components/img/loginclogio.PNG)
-![Alt text](client/src/components/img/signupco.PNG)
-![Alt text](client/src/components/img/homepage.PNG)
-![Alt text](client/src/components/img/dashboardd.PNG)
+![Alt text](client/src/components/img/signupscreen.PNG)
+![Alt text](client/src/components/img/homescreen.PNG)
+![Alt text](client/src/components/img/Mydashboard.PNG)

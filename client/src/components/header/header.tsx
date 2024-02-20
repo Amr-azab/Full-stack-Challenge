@@ -67,10 +67,10 @@ export const Header: React.FC = () => {
               fontWeight: "800",
               fontFamily: "sans-serif",
             }}
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            sx={{ flexGrow: 1 }}
           >
             {user._id && (
-              <div>
+              <div className={classes.user}>
                 Welcome {user.userName} {/* Display username here */}
               </div>
             )}
